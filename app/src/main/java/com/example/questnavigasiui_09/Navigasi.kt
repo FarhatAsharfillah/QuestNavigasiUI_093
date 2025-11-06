@@ -40,8 +40,16 @@ fun DataApp(
                 TampilData(
                     onBackBtnClick = {
                     cancelAndBackToFormulirku(navController)
+                    }
                 )
             }
         }
     }
 }
+
+private fun cancelAndBackToFormulirku(
+    navController: NavHostController
+){
+
+
+
